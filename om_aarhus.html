@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <title>Aarhus Festuge | Om</title>
+</head>
+<body>
+    <section class="main">
+        <div class="af-banner">
+            <span>AARHUS FESTUGE</span>
+            <small class="date">(27.08. - 05.09.2021)</small>
+        </div>
+        <div class="menu main-menu">
+            <div>
+                <a href="https://shop.aarhusfestuge.dk/">SHOP</a>
+            </div>
+            <div>
+                <a onclick="toggleMainMenu()" href="#">MENU <img class="arrow-down" src="icons/next.svg" /></a>
+            </div>
+            <div>
+                <a href><img class="languages" src="icons/danish.png" /></a>
+                <a href><img class="languages" src="icons/english.png" /></a>
+            </div>
+        </div>
+        <div id="main-menu-block" class="menu secondary-menu hidden">
+            <a href="id_mandatory_assignment.html">FORSIDE</a>
+            <a href="nyheder.html">NYHEDER</a>
+            <a href="#" onclick="toggleInfoMenu()">OM FESTUGEN <img class="arrow-down" src="icons/next.svg" /></a>
+            <a href="#" onclick="togglePresseMenu()">PRESSE <img class="arrow-down" src="icons/next.svg" /></a>
+            <a href="person_data.html">PERSON DATA</a>
+            <a href="#" onclick="toggleBusinessMenu()">ERHVERV <img class="arrow-down" src="icons/next.svg" /></a>
+        </div>
+        <div id="festue-menu" class="menu tertiary-menu hidden">
+            <a href="om_aarhus_festuge.html">OM AARHUS FESTUGE</a>
+            <a href="om_aarhus.html">OM AARHUS</a>
+            <a href="program.html">PROGRAMMET</a>
+            <a href="volunteer.html">BLIV FRIVILLIG</a>
+            <a href="sekretariat.html">SEKRETARIAT</a>
+            <a href="sponsor.html">SPONSORER</a>
+            <a href="job.html">JOB OG PRAKTIK</a>
+            <a href="bestyrelse.html">BESTYRELSE</a>
+        </div>
+        <div id="presse-menu" class="menu tertiary-menu hidden">
+            <a href="facts.html">FAKTA OM FESTUGEN</a>
+            <a href="press.html">PRESSMATERIALE</a>
+        </div>
+        <div id="business-menu" class="menu tertiary-menu hidden">
+            <a href="https://www.aarhusfestuge.dk/erhverv/a">A +</a>
+        </div>
+        <div class="festuge-video">
+            <iframe src="https://player.vimeo.com/video/342995151?background=1&autopause=0" width="500px" height="280px"></iframe>
+            <div class="festuge-video-info">
+                <h2>Om Aarhus</h2>
+            </div>
+        </div>
+        <div class="af-banner collab">
+            <span>AARHUS FESTUGE</span>
+        </div>
+        <div>
+            <div class="history">
+                <p style="margin-top:0px;">
+                    I de seneste år er roserne væltet ned over Aarhus, og topplacering som must-visit destination hos Vogue, Lonely Planet, CNN, National Geographic og Momondo gør, at alle taler om Aarhus – og har gjort det i nogle år efterhånden.
+                </p>
+                <p>
+                    Danmarks andenstørste by ligger unikt, tæt på skov og hav og er med Aarhus Universitet og byens mange studerende en livlig og kulturel by med masser af muligheder for oplevelser. Sport, mad, kultur, natur, shopping, viden og storbystemning pakket ind i et lokalt fællesskab og en tid til det hele-stemning.
+                </p>
+                <p>
+                    Hvis du vil blive klogere på anbefalingsværdige spisesteder, muligheder for overnatning og meget andet, kan du finde masser af inspiration hos VisitAarhus.
+                </p>
+                <h4>Transport</h4>
+                <p>
+                    Hvis du ikke er fra Aarhus, kan du med fordel se nærmere på de følgende transportmuligheder, så du, din familie og dine venner kan opleve en af Danmarks største kulturbegivenheder: Aarhus Festuge!
+                </p>
+                <p class="transport-link">
+                    <a href="">Molslinjen</a>  <a href="">Arriva</a>  <a href="">DSB</a>  <a href="">Midttraffik</a>  <a href="">GoMore</a>  <a href="">Kombardo Expressen</a>
+                </p>
+            </div>
+        </div>
+        <div class="af-banner collab">
+            <span>SPONSORER</span>
+        </div>
+        <div style="margin-bottom: 2rem;">
+            <img src="icons/sponsors_group.PNG" style="width: 100%" />
+        </div>
+        <div class="newsletter-banner">
+            <div class="newsletter-icon">
+                <img src="icons/newsletter.PNG" /><img src="icons/newsletter.PNG" /><img src="icons/newsletter.PNG" /><img src="icons/newsletter.PNG" /><img src="icons/newsletter.PNG" /><img src="icons/newsletter.PNG" /><img src="icons/newsletter.PNG" /><img src="icons/newsletter.PNG" /><img src="icons/newsletter.PNG" />
+            </div>
+            <div class="newsletter-form">
+                <p>TILMELD DIG VORES NYHEDSBREV - OG FÅ 20 % RABAT I VORES WEBSHOP</p>
+                <form action="" method="post">
+                    <input type="checkbox" name="betingelser" /> <label for="betingelser">Jeg accepterer betingelserne</label><br />
+                    <input type="text" name="email" value="" />
+                    <button>Tilmeld</button>
+                </form>
+            </div>
+        </div>
+        <div class="newsletter-explanation">
+            <p>
+                ...og få et unikt indblik ind i Festugens verden og muligheder. 10 dage hvert år binder Festugen byen sammen gennem kultur og skaber en kulturel folkefest.
+            </p>
+            <p>
+                Med Aarhus Festuges nyhedsbrev får du et overblik over, hvad du kan se frem til under Festugen. Samtidig får du som nyhedsbrevsmodtager en række fordele. Du kan blandt andet se frem til 20 % rabat i vores webshop - og så bliver du selvfølgelig en af de første, der hører om Festugens store begivenheder og nyheder – uanset om det handler om årets store teatersatsning eller kunst i gaderne.
+            </p>
+        </div>
+        <div class="social-media">
+            <img src="icons/facebook.png" style="width:30px;height:30px;" />
+            <img src="icons/instagram.jfif" style="width:60px;margin-top:-6px;" />
+        </div>
+    </section>
+    <script>
+        function toggleMainMenu() {
+            let e = document.getElementById("main-menu-block");
+            e.classList.toggle("hidden");
+            document.getElementById("festue-menu").classList.add("hidden");
+            document.getElementById("business-menu").classList.add("hidden");
+            document.getElementById("presse-menu").classList.add("hidden");
+        }
+
+        function toggleInfoMenu() {
+            let e = document.getElementById("festue-menu");
+            e.classList.toggle("hidden");
+            document.getElementById("presse-menu").classList.add("hidden");
+            document.getElementById("business-menu").classList.add("hidden");
+        }
+
+        function togglePresseMenu() {
+            let e = document.getElementById("presse-menu");
+            e.classList.toggle("hidden");
+            document.getElementById("festue-menu").classList.add("hidden");
+            document.getElementById("business-menu").classList.add("hidden");
+        }
+
+        function toggleBusinessMenu() {
+            let e = document.getElementById("business-menu");
+            e.classList.toggle("hidden");
+            document.getElementById("presse-menu").classList.add("hidden");
+            document.getElementById("festue-menu").classList.add("hidden");
+        }
+    </script>
+    <script>
+        function showmore() {
+            document.getElementById("show-more").classList.toggle("hidden");
+            document.getElementById("show-less").classList.toggle("hidden");
+            document.getElementById("hidden-list").classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
